@@ -1,0 +1,38 @@
+.alert_main {
+  border: 1px solid var(--gray-border);
+  border-radius: 5px;
+  margin: 1rem;
+  display: flex;
+}
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+.alert-width {
+  width: 45%;
+  height: auto;
+  margin: auto;
+}
+.alert-text {
+  padding-left: 0.5rem;
+  font-size: 1.3rem;
+}
+.danger {
+  background-color: var(--danger);
+}
+.warning {
+  background-color: var(--warning);
+}
+.info {
+  background-color: var(--info);
+}
+.success {
+  background-color: var(--success);
+}
+@media only screen and (max-width: 1099px) {
+  .alert-width {
+    width: 80%;
+  }
+}
