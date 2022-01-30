@@ -88,9 +88,6 @@
   .button button {
     margin-bottom: 1rem;
   }
-  .badge-icon {
-    margin-bottom: 1rem;
-  }
   .action-button {
     flex-direction: row;
     width: 100%;
