@@ -1,0 +1,48 @@
+.avatar-images {
+    border: 1px solid var(--gray-border);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+  }
+  .avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .avatar >*{
+      margin: 20px;
+  }
+  .avatar-sm {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+  }
+  .avatar-md {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+  }
+  .avatar-lg {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+  }
+  .letter-avatar {
+    background-color: var(--avatar-letter-bg-color);
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-radius: 50%;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .avatar-images {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .avatar {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
