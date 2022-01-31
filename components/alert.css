@@ -19,16 +19,16 @@
   padding-left: 0.5rem;
   font-size: 1.3rem;
 }
-.danger {
+.bg-danger {
   background-color: var(--danger);
 }
-.warning {
+.bg-warning {
   background-color: var(--warning);
 }
-.info {
+.bg-info {
   background-color: var(--info);
 }
-.success {
+.bg-success {
   background-color: var(--success);
 }
 @media only screen and (max-width: 1099px) {
