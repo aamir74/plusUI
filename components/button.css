@@ -8,7 +8,8 @@
 .button {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 1rem 1.5rem;
 }
 
@@ -16,9 +17,6 @@
   border: 1px solid var(--gray-border);
   padding: 0.5rem 1rem;
   color: var(--white);
-  line-height: 1.75;
-  font-weight: 600;
-  letter-spacing: 0.02857em;
   border-radius: 7px;
   cursor: pointer;
 }
@@ -35,9 +33,6 @@
   background-color: transparent;
   cursor: pointer;
   border: 0;
-  line-height: 1.75;
-  font-weight: 600;
-  letter-spacing: 0.02857em;
   border: 1px solid;
   border-radius: 7px;
   padding: 0.45rem 1rem;
@@ -45,12 +40,7 @@
 .btn-bg-color {
   background-color: var(--primary-color);
 }
-.action-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem 1.5rem;
-}
+
 .btn-fab {
   border: 1px solid var(--primary-color);
   width: 40px;
@@ -81,16 +71,10 @@
 }
 @media only screen and (max-width: 550px) {
   .button {
-    flex-direction: column;
     align-content: space-between;
     justify-content: space-evenly;
   }
   .button button {
     margin-bottom: 1rem;
-  }
-  .action-button {
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
   }
 }
