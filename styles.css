@@ -1,0 +1,15 @@
+@import "./components/toast.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+:root {
+  --primary-color: #ae759f;
+  --gray-border: #4a6670;
+  --white: #eff1f3;
+  --avatar-letter-bg-color: #ae759f;
+  --danger: #da4577;
+  --warning: #fac739;
+  --info: #7ccce4;
+  --success: #76e2ac;
+  --margin-width: 1rem;
+  --toast-bg-color: #ae759f;
+}
