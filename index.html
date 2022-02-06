@@ -5,16 +5,217 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+    />
 
     <title>PlusUI</title>
   </head>
   <body class="docs-body">
-    <nav class="p-nav">aamir</nav>
+    <nav class="p-nav">PlusUI</nav>
     <aside class="p-aside">
-      <div class="sidebar-link">
-        
-      </div>
+      <a class="nav__item" href="#install">
+        <div>
+          <i class="fa fa-download nav-icon" aria-hidden="true"></i
+          ><span class="nav-name">Installation</span>
+        </div>
+        <a class="nav__item" href="#avatar">
+          <div>
+            <i class="fa fa-users nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Avatar</span>
+          </div>
+        </a>
+
+        <a class="nav__item" href="#alert">
+          <div>
+            <i
+              class="fa fa-exclamation-triangle nav-icon"
+              aria-hidden="true"
+            ></i
+            ><span class="nav-name">Alert</span>
+          </div></a
+        >
+        <a class="nav__item" href="#button">
+          <div>
+            <i class="fa fa-square nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Button</span>
+          </div></a
+        >
+        <a class="nav__item" href="#input">
+          <div>
+            <i class="fa fa-keyboard-o nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Input</span>
+          </div></a
+        >
+        <a class="nav__item" href="#list">
+          <div>
+            <i class="fa fa-list nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Lists</span>
+          </div></a
+        ><a class="nav__item" href="#modals">
+          <div>
+            <i class="fa fa-window-maximize nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Modals</span>
+          </div></a
+        >
+        <a class="nav__item" href="#card">
+          <div>
+            <i class="fa fa-credit-card nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Cards</span>
+          </div></a
+        >
+        <a class="nav__item" href="#toast">
+          <div>
+            <i class="fa fa-trophy nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Toasts</span>
+          </div></a
+        >
+        <a class="nav__item" href="#text-util">
+          <div>
+            <i class="fa fa-text-width nav-icon" aria-hidden="true"></i
+            ><span class="nav-name">Text utilities</span>
+          </div></a
+        >
+      </a>
     </aside>
-    <content class="p-content">content</content>
+    <content class="p-content">
+      <div>
+        <!-- components here -->
+        <article id="avatar">
+          <h2>Image Avatars</h2>
+          <div class="avatar-images">
+            <div class="avatar">
+              <img
+                class="avatar-sm"
+                src="https://source.unsplash.com/user/c_v_r"
+                alt="avatar"
+              />
+              <img
+                class="avatar-md"
+                src="https://source.unsplash.com/user/c_v_r"
+                alt="avatar"
+              />
+              <img
+                class="avatar-lg"
+                src="https://source.unsplash.com/user/c_v_r"
+                alt="avatar"
+              />
+            </div>
+            <div class="p-code">
+              <iframe
+                src="https://carbon.now.sh/embed/htlOJphwY2neA5uBhjIC"
+                style="
+                  width: 671px;
+                  height: 126px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <h2>Letter Avatars</h2>
+          <div class="avatar-images">
+            <div class="avatar">
+              <span class="letter-avatar">AA</span>
+              <span class="letter-avatar">AN</span>
+            </div>
+            <div class="p-code">
+              <iframe
+                src="https://carbon.now.sh/embed/mNmClFtMoUIcPxFHgpMm"
+                style="
+                  width: 671px;
+                  height: 126px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </article>
+        <article id="button">
+          <h1>Link and Primary Buttons</h1>
+          <div class="button_main">
+            <div class="button">
+              <button class="btn-text btn-color">LINK</button>
+              <button class="btn-text btn-secondary btn-color">
+                SECONDARY
+              </button>
+              <button class="btn-text btn-primary btn-bg-color">PRIMARY</button>
+            </div>
+            <div class="p-code">
+              <iframe
+                src="https://carbon.now.sh/embed/85plnk09bMxsVnQ3Ihka"
+                style="
+                  width: 664px;
+                  height: 126px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <h2>Floating Action Buttons</h2>
+          <div class="button_main">
+            <div class="button">
+              <button class="btn-fab fab-bg-color">
+                <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+              </button>
+              <button class="btn-fab fab-bg-color">
+                <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="p-code">
+              <iframe
+                src="https://carbon.now.sh/embed/Ku3fuJzhBFtM82iIuZrl"
+                style="
+                  width: 671px;
+                  height: 178px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+          <h2>Icon Buttons</h2>
+          <div class="button_main">
+            <div class="button">
+              <button class="btn-icon fab-bg-color">
+                <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+              </button>
+              <button class="btn-icon fab-bg-color">
+                <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="p-code">
+              <iframe
+                src="https://carbon.now.sh/embed/WMYgmxrgVjniLVkSok6k"
+                style="
+                  width: 680px;
+                  height: 178px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </article>
+      </div>
+    </content>
   </body>
 </html>
