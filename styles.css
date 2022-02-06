@@ -1,11 +1,13 @@
 @import "./components/navigation.css";
 @import "./components/button.css";
 @import "./components/avatar.css";
+@import "./components/alert.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 * {
   margin: 0;
   padding: 0;
 }
+
 
 :root {
   --primary-color: #ae759f;

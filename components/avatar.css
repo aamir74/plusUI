@@ -42,11 +42,15 @@
 
 @media only screen and (max-width: 550px) {
   .avatar-images {
-    flex-direction: column;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .avatar {
-    flex-direction: column;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
