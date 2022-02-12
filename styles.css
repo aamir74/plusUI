@@ -6,6 +6,7 @@
 @import "./components/lists.css";
 @import "./components/badge.css";
 @import "./components/card.css";
+@import "./components/toast.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
 * {
@@ -105,4 +106,5 @@
     width: 300px;
   }
   --shadow-color:   rgba(2, 1, 1, 0.07);
+  --toast-bg-color: #ae759f;
 }
