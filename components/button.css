@@ -58,7 +58,7 @@
 }
 
 @media only screen and (max-width: 2000px) and (min-width: 551px) {
-  .button .action-button{
+  .button{
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
