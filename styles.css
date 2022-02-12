@@ -5,6 +5,7 @@
 @import "./components/input.css";
 @import "./components/lists.css";
 @import "./components/badge.css";
+@import "./components/card.css";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
 * {
@@ -103,4 +104,5 @@
   article {
     width: 300px;
   }
+  --shadow-color:   rgba(2, 1, 1, 0.07);
 }
