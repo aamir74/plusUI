@@ -24,6 +24,7 @@
   font-size: medium;
   margin: 1rem;
   margin-top: 4px;
+  width:80%;
 }
 .validated {
   border-color: var(--info);
