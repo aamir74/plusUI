@@ -1,541 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="./font-awesome-4.7.0/css/font-awesome.min.css"
-    />
 
-    <title>PlusUI</title>
-  </head>
-  <body class="docs-body">
-    <nav class="p-nav">
-      <i class="fa fa-plus" aria-hidden="true"></i>
-      <h2>Plus UI</h2>
-    </nav>
-    <aside class="p-aside">
-      <a class="nav__item" href="#install">
-        <div>
-          <i class="fa fa-download nav-icon" aria-hidden="true"></i>
-          <span class="nav-name">Installation</span>
-        </div>
-        <a class="nav__item" href="#avatar">
-          <div>
-            <i class="fa fa-users nav-icon" aria-hidden="true"></i>
-            <span class="nav-name">Avatar</span>
-          </div>
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css" />
 
-        <a class="nav__item" href="#alert">
-          <div>
-            <i
-              class="fa fa-exclamation-triangle nav-icon"
-              aria-hidden="true"
-            ></i>
-            <span class="nav-name">Alert</span>
-          </div></a
-        >
-        <a class="nav__item" href="#button">
-          <div>
-            <i class="fa fa-square nav-icon" aria-hidden="true"></i
-            ><span class="nav-name">Button</span>
-          </div></a
-        >
-        <a class="nav__item" href="#input">
-          <div>
-            <i class="fa fa-keyboard-o nav-icon" aria-hidden="true"></i
-            ><span class="nav-name">Input</span>
-          </div></a
-        >
-        <a class="nav__item" href="#list">
-          <div>
-            <i class="fa fa-list nav-icon" aria-hidden="true"></i>
-            <span class="nav-name">Lists</span>
-          </div></a
-        ><a class="nav__item" href="#badge">
-          <div>
-            <i class="fa fa-certificate nav-icon" aria-hidden="true"></i>
-            <span class="nav-name">Badges</span>
-          </div></a
-        >
-        <a class="nav__item" href="#card">
-          <div>
-            <i class="fa fa-credit-card nav-icon" aria-hidden="true"></i
-            ><span class="nav-name">Cards</span>
-          </div></a
-        >
-        <a class="nav__item" href="#toast">
-          <div>
-            <i class="fa fa-trophy nav-icon" aria-hidden="true"></i
-            ><span class="nav-name">Toasts</span>
-          </div></a
-        >
-        <a class="nav__item" href="#text-util">
-          <div>
-            <i class="fa fa-text-width nav-icon" aria-hidden="true"></i
-            ><span class="nav-name">Text utilities</span>
-          </div></a
-        >
-      </a>
-    </aside>
-    <content class="p-content">
+  <title>PlusUI</title>
+</head>
+
+<body class="docs-body">
+  <nav class="p-nav">
+    <i class="fa fa-plus" aria-hidden="true"></i>
+    <h2>Plus UI</h2>
+  </nav>
+  <aside class="p-aside">
+    <a class="nav__item" href="#install">
       <div>
-        <!-- components here -->
-        <article id="install">
-          <h2>Installation</h2>
-          <div class="button_main">
-            To use this utility classes provided by Plus UI in your application, you just need to copy the below links
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/2OArCodyJ52B2M5nKhhM"
-                style="
-                  width: 671px;
-                  height: 126px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-          </div>
-        </article>
-        <article id="avatar">
-          <h2>Image Avatars</h2>
-          <div class="avatar-images">
-            <div class="avatar">
-              <img
-                class="avatar-sm"
-                src="https://source.unsplash.com/user/c_v_r"
-                alt="avatar"
-              />
-              <img
-                class="avatar-md"
-                src="https://source.unsplash.com/user/c_v_r"
-                alt="avatar"
-              />
-              <img
-                class="avatar-lg"
-                src="https://source.unsplash.com/user/c_v_r"
-                alt="avatar"
-              />
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/htlOJphwY2neA5uBhjIC"
-                style="
-                  width: 671px;
-                  height: 126px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-          </div>
-          <h2>Letter Avatars</h2>
-          <div class="avatar-images">
-            <div class="avatar">
-              <span class="letter-avatar">AA</span>
-              <span class="letter-avatar">AN</span>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/ZEnkvFphDHFQ8HcfYKNU"
-                style="
-                  width: 671px;
-                  height: 126px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-          </div>
-        </article>
-        <article id="alert">
-          <h1>Simple Alerts</h1>
-          <div class="alert_main">
-            <div class="alert-width">
-              <div class="alert bg-danger">
-                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                <span class="alert-text">This is an error alert</span>
-              </div>
+        <i class="fa fa-download nav-icon" aria-hidden="true"></i>
+        <span class="nav-name">Installation</span>
+      </div>
+      <a class="nav__item" href="#avatar">
+        <div>
+          <i class="fa fa-users nav-icon" aria-hidden="true"></i>
+          <span class="nav-name">Avatar</span>
+        </div>
+      </a>
 
-              <div class="alert bg-warning">
-                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                <span class="alert-text">This is a warning alert</span>
-              </div>
-              <div class="alert bg-info">
-                <i class="fa fa-info-circle" aria-hidden="true"></i>
-                <span class="alert-text">This is an info alert</span>
-              </div>
-              <div class="alert bg-success">
-                <i class="fa fa-check" aria-hidden="true"></i>
-                <span class="alert-text">This is a success alert</span>
-              </div>
+      <a class="nav__item" href="#alert">
+        <div>
+          <i class="fa fa-exclamation-triangle nav-icon" aria-hidden="true"></i>
+          <span class="nav-name">Alert</span>
+        </div>
+      </a>
+      <a class="nav__item" href="#button">
+        <div>
+          <i class="fa fa-square nav-icon" aria-hidden="true"></i><span class="nav-name">Button</span>
+        </div>
+      </a>
+      <a class="nav__item" href="#input">
+        <div>
+          <i class="fa fa-keyboard-o nav-icon" aria-hidden="true"></i><span class="nav-name">Input</span>
+        </div>
+      </a>
+      <a class="nav__item" href="#list">
+        <div>
+          <i class="fa fa-list nav-icon" aria-hidden="true"></i>
+          <span class="nav-name">Lists</span>
+        </div>
+      </a><a class="nav__item" href="#badge">
+        <div>
+          <i class="fa fa-certificate nav-icon" aria-hidden="true"></i>
+          <span class="nav-name">Badges</span>
+        </div>
+      </a>
+      <a class="nav__item" href="#card">
+        <div>
+          <i class="fa fa-credit-card nav-icon" aria-hidden="true"></i><span class="nav-name">Cards</span>
+        </div>
+      </a>
+      <a class="nav__item" href="#toast">
+        <div>
+          <i class="fa fa-trophy nav-icon" aria-hidden="true"></i><span class="nav-name">Toasts</span>
+        </div>
+      </a>
+      <a class="nav__item" href="#text-util">
+        <div>
+          <i class="fa fa-text-width nav-icon" aria-hidden="true"></i><span class="nav-name">Text utilities</span>
+        </div>
+      </a>
+    </a>
+  </aside>
+  <content class="p-content">
+    <div>
+      <!-- components here -->
+      <article id="install">
+        <h2>Installation</h2>
+        <div class="button_main">
+          To use this utility classes provided by Plus UI in your application, you just need to copy the below links
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/2OArCodyJ52B2M5nKhhM" style="
+                  width: 671px;
+                  height: 126px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+      </article>
+      <article id="avatar">
+        <h2>Image Avatars</h2>
+        <div class="avatar-images">
+          <div class="avatar">
+            <img class="avatar-sm" src="https://source.unsplash.com/user/c_v_r" alt="avatar" />
+            <img class="avatar-md" src="https://source.unsplash.com/user/c_v_r" alt="avatar" />
+            <img class="avatar-lg" src="https://source.unsplash.com/user/c_v_r" alt="avatar" />
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/htlOJphwY2neA5uBhjIC" style="
+                  width: 671px;
+                  height: 126px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <h2>Letter Avatars</h2>
+        <div class="avatar-images">
+          <div class="avatar">
+            <span class="letter-avatar">AA</span>
+            <span class="letter-avatar">AN</span>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/ZEnkvFphDHFQ8HcfYKNU" style="
+                  width: 671px;
+                  height: 126px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+      </article>
+      <article id="alert">
+        <h1>Simple Alerts</h1>
+        <div class="alert_main">
+          <div class="alert-width">
+            <div class="alert bg-danger">
+              <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+              <span class="alert-text">This is an error alert</span>
             </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/HVeLc9239RV4LCxrncs8"
-                style="
+
+            <div class="alert bg-warning">
+              <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              <span class="alert-text">This is a warning alert</span>
+            </div>
+            <div class="alert bg-info">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+              <span class="alert-text">This is an info alert</span>
+            </div>
+            <div class="alert bg-success">
+              <i class="fa fa-check" aria-hidden="true"></i>
+              <span class="alert-text">This is a success alert</span>
+            </div>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/HVeLc9239RV4LCxrncs8" style="
                   width: 671px;
                   height: 426px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-        </article>
-        <article id="button">
-          <h1>Link and Primary Buttons</h1>
-          <div class="button_main">
-            <div class="button">
-              <button class="btn-text btn-color">LINK</button>
-              <button class="btn-text btn-secondary btn-color">
-                SECONDARY
-              </button>
-              <button class="btn-text btn-primary btn-bg-color">PRIMARY</button>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/85plnk09bMxsVnQ3Ihka"
-                style="
+        </div>
+      </article>
+      <article id="button">
+        <h1>Link and Primary Buttons</h1>
+        <div class="button_main">
+          <div class="button">
+            <button class="btn-text btn-color">LINK</button>
+            <button class="btn-text btn-secondary btn-color">
+              SECONDARY
+            </button>
+            <button class="btn-text btn-primary btn-bg-color">PRIMARY</button>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/85plnk09bMxsVnQ3Ihka" style="
                   width: 664px;
                   height: 126px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-          <h2>Floating Action Buttons</h2>
-          <div class="button_main">
-            <div class="button">
-              <button class="btn-fab fab-bg-color">
-                <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
-              </button>
-              <button class="btn-fab fab-bg-color">
-                <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
-              </button>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/Ku3fuJzhBFtM82iIuZrl"
-                style="
+        </div>
+        <h2>Floating Action Buttons</h2>
+        <div class="button_main">
+          <div class="button">
+            <button class="btn-fab fab-bg-color">
+              <i class="fa fa-plus fa-lg" aria-hidden="true"></i>
+            </button>
+            <button class="btn-fab fab-bg-color">
+              <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/Ku3fuJzhBFtM82iIuZrl" style="
                   width: 671px;
                   height: 178px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-          <h2>Icon Buttons</h2>
-          <div class="button_main">
-            <div class="button">
-              <button class="btn-icon fab-bg-color">
-                <i class="fa fa-home fa-lg" aria-hidden="true"></i>
-              </button>
-              <button class="btn-icon fab-bg-color">
-                <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
-              </button>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/WMYgmxrgVjniLVkSok6k"
-                style="
+        </div>
+        <h2>Icon Buttons</h2>
+        <div class="button_main">
+          <div class="button">
+            <button class="btn-icon fab-bg-color">
+              <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+            </button>
+            <button class="btn-icon fab-bg-color">
+              <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/WMYgmxrgVjniLVkSok6k" style="
                   width: 680px;
                   height: 178px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+      </article>
+      <article id="input">
+        <h1>Inputs</h1>
+        <div class="input_main">
+          <div>
+            <label for="inputbox_1" class="text-label red-color">Normal Label</label>
+            <div>
+              <input id="inputbox_1" class="textbox" type="text" placeholder="Standard" />
             </div>
           </div>
-        </article>
-        <article id="input">
-          <h1>Inputs</h1>
-          <div class="input_main">
+          <div>
+            <label for="inputbox_1" class="text-label red-color">Validated Label</label>
             <div>
-              <label for="inputbox_1" class="text-label red-color"
-                >Normal Label</label
-              >
-              <div>
-                <input
-                  id="inputbox_1"
-                  class="textbox"
-                  type="text"
-                  placeholder="Standard"
-                />
-              </div>
+              <input id="inputbox_1" class="textbox validated" type="text" placeholder="Validated" />
             </div>
+          </div>
+          <div>
+            <label for="inputbox_1" class="text-label red-color">Error Label</label>
             <div>
-              <label for="inputbox_1" class="text-label red-color"
-                >Validated Label</label
-              >
-              <div>
-                <input
-                  id="inputbox_1"
-                  class="textbox validated"
-                  type="text"
-                  placeholder="Validated"
-                />
-              </div>
+              <input id="inputbox_1" class="textbox error" type="text" placeholder="Error" />
             </div>
-            <div>
-              <label for="inputbox_1" class="text-label red-color"
-                >Error Label</label
-              >
-              <div>
-                <input
-                  id="inputbox_1"
-                  class="textbox error"
-                  type="text"
-                  placeholder="Error"
-                />
-              </div>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/hb4W5PEc7z4J5wl83z4n"
-                style="
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/hb4W5PEc7z4J5wl83z4n" style="
                   width: 680px;
                   height: 178px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-        </article>
-        <article id="list">
-          <h2>Spaced Lists</h2>
-          <div class="list_main">
-            <div class="list">
-              <ul class="spaced_lists">
-                <li class="spaced_list_item">Item 1</li>
-                <li class="spaced_list_item">Item 2</li>
-                <li class="spaced_list_item">Item 3</li>
-                <li class="spaced_list_item">Item 4</li>
-              </ul>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/ArsDt0T1Hsu1jT0usALa"
-                style="
+        </div>
+      </article>
+      <article id="list">
+        <h2>Spaced Lists</h2>
+        <div class="list_main">
+          <div class="list">
+            <ul class="spaced_lists">
+              <li class="spaced_list_item">Item 1</li>
+              <li class="spaced_list_item">Item 2</li>
+              <li class="spaced_list_item">Item 3</li>
+              <li class="spaced_list_item">Item 4</li>
+            </ul>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/ArsDt0T1Hsu1jT0usALa" style="
                   width: 680px;
                   height: 178px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-          <h2>Stacked Lists</h2>
-          <div class="list_main">
-            <div class="list">
-              <ul class="stacked_lists">
-                <li
-                  id="first_list_item"
-                  class="stacked_list_item selected_list"
-                >
-                  Stacked Item 1
-                </li>
-                <li class="stacked_list_item">Stacked Item 3</li>
-                <li class="stacked_list_item">Stacked Item 4</li>
-                <li id="last_list_item" class="stacked_list_item">
-                  Stacked Item 5
-                </li>
-              </ul>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/GjNN7zKYyoYziO9GaVf1"
-                style="
+        </div>
+        <h2>Stacked Lists</h2>
+        <div class="list_main">
+          <div class="list">
+            <ul class="stacked_lists">
+              <li id="first_list_item" class="stacked_list_item selected_list">
+                Stacked Item 1
+              </li>
+              <li class="stacked_list_item">Stacked Item 3</li>
+              <li class="stacked_list_item">Stacked Item 4</li>
+              <li id="last_list_item" class="stacked_list_item">
+                Stacked Item 5
+              </li>
+            </ul>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/GjNN7zKYyoYziO9GaVf1" style="
                   width: 680px;
                   height: 190px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+      </article>
+      <article id="badge">
+        <h2>Badge on Avatars</h2>
+        <div class="avatar-images">
+          <div class="avatar">
+            <div>
+              <img class="avatar-md" src="https://source.unsplash.com/user/c_v_r" />
+              <span class="avatar-badge green-dot"></span>
+            </div>
+            <div>
+              <img class="avatar-md" src="https://source.unsplash.com/user/c_v_r" />
+              <span class="avatar-badge red-dot"></span>
             </div>
           </div>
-        </article>
-        <article id="badge">
-          <h2>Badge on Avatars</h2>
-          <div class="avatar-images">
-            <div class="avatar">
-              <div>
-                <img
-                  class="avatar-md"
-                  src="https://source.unsplash.com/user/c_v_r"
-                />
-                <span class="avatar-badge green-dot"></span>
-              </div>
-              <div>
-                <img
-                  class="avatar-md"
-                  src="https://source.unsplash.com/user/c_v_r"
-                />
-                <span class="avatar-badge red-dot"></span>
-              </div>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/2eM70Ew3QMGMni8fEc2Z"
-                style="
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/2eM70Ew3QMGMni8fEc2Z" style="
                   width: 680px;
                   height: 195px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-          <h2>Icon with Badges</h2>
-          <div class="button_main">
-            <div class="action-button">
-              <span class="badge-icon">
-                <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
-                <span class="badge">2</span>
-              </span>
-              <span class="badge-icon">
-                <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
-                <span class="badge">4</span>
-              </span>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/HDaIHT0GLMWj9CjdAtsY"
-                style="
-                  width: 680px;
-                  height: 178px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+        </div>
+        <h2>Icon with Badges</h2>
+        <div class="button_main">
+          <div class="action-button">
+            <span class="badge-icon">
+              <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+              <span class="badge">2</span>
+            </span>
+            <span class="badge-icon">
+              <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+              <span class="badge">4</span>
+            </span>
           </div>
-        </article>
-        <article id="card">
-          <h2>Card with Badges</h2>
-          <div class="cards">
-            <div class="card">
-              <img
-                class="card-img"
-                src="https://source.unsplash.com/user/c_v_r"
-              />
-              <span class="card-badge left white-bg"><small>Offer</small></span>
-            </div>
-            <div class="card">
-              <img
-                class="card-img"
-                src="https://source.unsplash.com/user/c_v_r"
-              />
-              <span class="card-badge left pink-bg"
-                ><small>Discount 50%</small></span
-              >
-              <span
-                ><i
-                  class="fa fa-heart badge-btn top-right"
-                  aria-hidden="true"
-                ></i
-              ></span>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/HDaIHT0GLMWj9CjdAtsY"
-                style="
-                  width: 680px;
-                  height: 295px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-          </div>
-          <h2>Card with Dismiss</h2>
-          <div class="cards">
-            <div class="card">
-              <img
-                class="card-img"
-                src="https://source.unsplash.com/user/c_v_r"
-              />
-              <span
-                ><i
-                  class="fa fa-times badge-btn top-right"
-                  aria-hidden="true"
-                ></i
-              ></span>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/HDaIHT0GLMWj9CjdAtsY"
-                style="
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/r4oOfckaSm7Ob6trxlMM" style="
                   width: 680px;
                   height: 200px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+      </article>
+      <article id="card">
+        <h2>Card with Badges</h2>
+        <div class="cards">
+          <div class="card">
+            <img class="card-img" src="https://source.unsplash.com/user/c_v_r" />
+            <span class="card-badge left white-bg"><small>Offer</small></span>
+          </div>
+          <div class="card">
+            <img class="card-img" src="https://source.unsplash.com/user/c_v_r" />
+            <span class="card-badge left pink-bg"><small>Discount 50%</small></span>
+            <span><i class="fa fa-heart badge-btn top-right" aria-hidden="true"></i></span>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/iLa8T5WQLsicHE2WfWut" style="
+                  width: 680px;
+                  height: 295px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <h2>Card with Dismiss</h2>
+        <div class="cards">
+          <div class="card">
+            <img class="card-img" src="https://source.unsplash.com/user/c_v_r" />
+            <span><i class="fa fa-times badge-btn top-right" aria-hidden="true"></i></span>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/gTbYwsaMoHKc7quW5G7J" style="
+                  width: 680px;
+                  height: 200px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <h2>Verical Card with Text Overlay</h2>
+        <div class="cards">
+          <div class="card card-with-text">
+            <img class="card-img grayed-img" src="https://source.unsplash.com/user/c_v_r" />
+            <span class="overlay-text">Overlay Text</span>
+            <div class="card-details">
+              <h3 class="card-text-title">Beautiful Image</h3>
+              <p class="desc">short description</p>
+            </div>
+            <div class="card-btn">
+              <button class="btn-primary btn-bg-color left-margin">
+                Primary
+              </button>
+              <button class="btn-secondary btn-color">Secondary</button>
             </div>
           </div>
-          <h2>Verical Card with Text Overlay</h2>
-          <div class="cards">
-            <div class="card card-with-text">
-              <img
-                class="card-img grayed-img"
-                src="https://source.unsplash.com/user/c_v_r"
-              />
-              <span class="overlay-text">Overlay Text</span>
-              <div class="card-details">
-                <h3 class="card-text-title">Beautiful Image</h3>
-                <p class="desc">short description</p>
-              </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/pQ4tdbRaBM79zjDwaMjr" style="
+                  width: 680px;
+                  height: 290px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <h2>Card with only Text</h2>
+        <div class="cards">
+          <div class="card text-card">
+            <div class="card-details">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Perspiciatis exercitationem possimus voluptatibus, at hic
+                illo. Atque praesentium, voluptatum id dolore ad enim quisquam
+                libero cupiditate, sit soluta molestiae corporis doloribus!
+              </p>
               <div class="card-btn">
                 <button class="btn-primary btn-bg-color left-margin">
                   Primary
@@ -543,186 +440,128 @@
                 <button class="btn-secondary btn-color">Secondary</button>
               </div>
             </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/pQ4tdbRaBM79zjDwaMjr"
-                style="
-                  width: 680px;
-                  height: 290px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
           </div>
-          <h2>Card with only Text</h2>
-          <div class="cards">
-            <div class="card text-card">
-              <div class="card-details">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis exercitationem possimus voluptatibus, at hic
-                  illo. Atque praesentium, voluptatum id dolore ad enim quisquam
-                  libero cupiditate, sit soluta molestiae corporis doloribus!
-                </p>
-                <div class="card-btn">
-                  <button class="btn-primary btn-bg-color left-margin">
-                    Primary
-                  </button>
-                  <button class="btn-secondary btn-color">Secondary</button>
-                </div>
-              </div>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/4szUIcCR4YagU4LEmBJn"
-                style="
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/4szUIcCR4YagU4LEmBJn" style="
                   width: 680px;
                   height: 300px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <h2>Horizontal Card</h2>
+        <div class="cards">
+          <div class="card card-horizontal">
+            <img class="card-img img-horizontal" src="https://source.unsplash.com/user/c_v_r" />
+            <div class="card-details">
+              <h3 class="card-text-title">Beautiful Image</h3>
+              <p class="desc">short description</p>
             </div>
           </div>
-          <h2>Horizontal Card</h2>
-          <div class="cards">
-            <div class="card card-horizontal">
-              <img
-                class="card-img img-horizontal"
-                src="https://source.unsplash.com/user/c_v_r"
-              />
-              <div class="card-details">
-                <h3 class="card-text-title">Beautiful Image</h3>
-                <p class="desc">short description</p>
-              </div>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/K9ZSEcH49gdPNjknoWlk"
-                style="
-                  width: 680px;
-                  height: 150px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-          </div>
-        </article>
-        <article id="toast">
-          <h1 class="heading">Toasts</h1>
-          <h2>Basic</h2>
-          <div class="toasts">
-            <div class="snackbar">
-              <p>Can't send photo. Retry in 5 seconds.</p>
-              <button class="toast-button">RETRY</button>
-              <i class="far fa-times-circle"></i>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/K9ZSEcH49gdPNjknoWlk"
-                style="
-                  width: 680px;
-                  height: 130px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-          </div>
-        </article>
-        <article id="text-util">
-          <h1 class="heading">Text Utilities</h1>
-          <div class="h1 header">Headers</div>
-          <div class="text-utilities">
-            <div class="text-util">
-              <div class="h1">h1. Heading</div>
-              <div class="h2">h2. Heading</div>
-              <div class="h3">h3. Heading</div>
-              <div class="h4">h4. Heading</div>
-              <div class="h5">h5. Heading</div>
-              <div class="h6">h6. Heading</div>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/EuS8wnVzTcmVg18RtdXG"
-                style="
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/dBzKIfGLkQou9V0rsdSn" style="
                   width: 680px;
                   height: 200px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-          <div class="h1 header">Text Sizes</div>
-          <div class="text-utilities">
-            <div class="text-util">
-              <div class="text-sm">This is a small sized text</div>
-              <div class="text-md">This is a medium sized text</div>
-              <div class="text-lg">This is a large sized text</div>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/oyQXo1O699hqKW7UrsDL"
-                style="
+        </div>
+      </article>
+      <article id="toast">
+        <h1 class="heading">Toasts</h1>
+        <h2>Basic</h2>
+        <div class="toasts">
+          <div class="snackbar">
+            <p>Can't send photo. Retry in 5 seconds.</p>
+            <button class="toast-button">RETRY</button>
+            <i class="far fa-times-circle"></i>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/LD1iL0CZgY09tkTLtc2s" style="
+                  width: 680px;
+                  height: 130px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+      </article>
+      <article id="text-util">
+        <h1 class="heading">Text Utilities</h1>
+        <div class="h1 header">Headers</div>
+        <div class="text-utilities">
+          <div class="text-util">
+            <div class="h1">h1. Heading</div>
+            <div class="h2">h2. Heading</div>
+            <div class="h3">h3. Heading</div>
+            <div class="h4">h4. Heading</div>
+            <div class="h5">h5. Heading</div>
+            <div class="h6">h6. Heading</div>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/EuS8wnVzTcmVg18RtdXG" style="
+                  width: 680px;
+                  height: 200px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <div class="h1 header">Text Sizes</div>
+        <div class="text-utilities">
+          <div class="text-util">
+            <div class="text-sm">This is a small sized text</div>
+            <div class="text-md">This is a medium sized text</div>
+            <div class="text-lg">This is a large sized text</div>
+          </div>
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/oyQXo1O699hqKW7UrsDL" style="
                   width: 680px;
                   height: 180px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
+        </div>
+        <div class="h1 header">Gray Text with different alignments</div>
+        <div class="text-utilities">
+          <div class="text-util">
+            <div class="text-md text-gray text-center border">
+              This is a centered medium sized text
+            </div>
+            <div class="text-md text-gray text-left border">
+              This is a left aligned medium sized text
+            </div>
+            <div class="text-md text-gray text-right border">
+              This is a right aligned medium sized text
             </div>
           </div>
-          <div class="h1 header">Gray Text with different alignments</div>
-          <div class="text-utilities">
-            <div class="text-util">
-              <div class="text-md text-gray text-center border">
-                This is a centered medium sized text
-              </div>
-              <div class="text-md text-gray text-left border">
-                This is a left aligned medium sized text
-              </div>
-              <div class="text-md text-gray text-right border">
-                This is a right aligned medium sized text
-              </div>
-            </div>
-            <div class="p-code">
-              <iframe
-                src="https://carbon.now.sh/embed/GsoYWMnTvffxf7tSRnRd"
-                style="
+          <div class="p-code">
+            <iframe src="https://carbon.now.sh/embed/GsoYWMnTvffxf7tSRnRd" style="
                   width: 680px;
-                  height: 220px;
+                  height: 250px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
           </div>
-        </article>
-      </div>
-    </content>
-  </body>
+        </div>
+      </article>
+    </div>
+  </content>
+</body>
+
 </html>
