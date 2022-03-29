@@ -1,0 +1,123 @@
+@import "./components/navigation.css";
+@import "./components/button.css";
+@import "./components/avatar.css";
+@import "./components/alert.css";
+@import "./components/input.css";
+@import "./components/lists.css";
+@import "./components/badge.css";
+@import "./components/card.css";
+@import "./components/toast.css";
+@import "./components/text-utilities.css";
+@import "./components/image.css";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  --primary-color: #ae759f;
+  --gray-border: #4a6670;
+  --white: #eff1f3;
+  --avatar-letter-bg-color: #ae759f;
+  --danger: #da4577;
+  --warning: #fac739;
+  --info: #7ccce4;
+  --success: #76e2ac;
+  --margin-width: 1rem;
+  --shadow-color: rgba(2, 1, 1, 0.07);
+  --stacked-list-color: #d09bc2;
+  --margin-width: 1rem;
+  --toast-bg-color: #ae759f;
+}
+
+.docs-body {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav nav nav nav"
+    "sidebar content content content content content"
+    "sidebar content content content content content"
+    "sidebar content content content content content"
+    "sidebar content content content content content"
+    "sidebar content content content content content";
+  overflow-x: hidden;
+}
+
+.p-nav {
+  position: fixed;
+  grid-area: nav;
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 1rem;
+  z-index: 2;
+  color:var(--white);
+  display:flex;
+  align-items: center;
+}
+
+.p-aside {
+  width: fit-content;
+  position: fixed;
+  grid-area: sidebar;
+  background-color: var(--white);
+  height: 100%;
+  margin-top: 3rem;
+  margin-right: auto;
+  padding: 0.5rem 1rem;
+}
+
+.p-content {
+  margin: 3rem 0 0 10rem;
+  grid-area: content;
+  background-color: white;
+  padding: 0 3rem;
+  width: auto;
+  display: table-column;
+  justify-content: center;
+  align-items: center;
+}
+.p-nav > * {
+  margin: 0 0 0 1rem;
+}
+.p-content > * {
+  margin: 2rem;
+}
+
+.p-code {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 1050px) {
+  .p-content {
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+  }
+  .pcode {
+    display: none;
+  }
+  article {
+    width: 700px;
+  }
+  iframe {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  article {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  article {
+    width: 300px;
+  }
+ 
+}
+}
