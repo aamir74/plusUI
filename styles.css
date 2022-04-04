@@ -9,6 +9,7 @@
 @import "./components/toast.css";
 @import "./components/text-utilities.css";
 @import "./components/image.css";
+@import "./components/rating.css";
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
@@ -16,7 +17,6 @@
   margin: 0;
   padding: 0;
 }
-
 
 :root {
   --primary-color: #ae759f;
@@ -53,8 +53,8 @@
   width: 100%;
   padding: 1rem;
   z-index: 2;
-  color:var(--white);
-  display:flex;
+  color: var(--white);
+  display: flex;
   align-items: center;
 }
 
@@ -118,6 +118,4 @@
   article {
     width: 300px;
   }
- 
-}
 }
