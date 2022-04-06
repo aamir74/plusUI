@@ -47,7 +47,7 @@
   padding: 1rem 1.5rem;
 }
 .action-button > * {
-    margin: var(--margin-width);
+  margin: var(--margin-width);
 }
 .badge-icon {
   position: relative;
@@ -55,11 +55,11 @@
 .badge {
   position: absolute;
   border-radius: 50%;
-  background-color: var(--primary-color);
+  background-color: var(--white);
   font-size: 12px;
   top: -10px;
   right: -12px;
-  color: var(--white);
+  color: var(--primary-color);
   font-weight: 600;
   width: 18px;
   height: 18px;
