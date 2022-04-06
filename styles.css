@@ -11,6 +11,7 @@
 @import "./components/image.css";
 @import "./components/navbar.css";
 @import "./components/modal.css";
+@import "./components/grid.css";
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
@@ -120,3 +121,4 @@
     width: 300px;
   }
 }
+
